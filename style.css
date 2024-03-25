@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    padding: 0;
+}
+.main{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    position: relative;
+    height: 80vh;
+}
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+.nav{
+    max-width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.nav-logo{
+    background-image: url("logo.svg");
+    height: 40px;
+    width: 148px;
+    background-repeat: no-repeat;
+    margin-top: 18px;
+    position: relative;
+    z-index: 10;
+    
+    
+}
+.button button{
+    width: 77px;
+    height: 32px;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: 0.28rem;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: #E50914;
+    color: white;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    height:calc(100% - 118px);
+    position: relative;
+    gap: 20px;
+    padding: 30px;
+}
+.hero> :first-child{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 5px;
+    text-align: center;
+}
+.hero> :nth-child(3)
+{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 5px;
+    text-align: center;
+}
+.input{
+    display: flex;
+    justify-content: space 2px; 
+    gap: 8px;
+}
+.separation{
+    height: 8px;
+    background-color: rgb(99, 98, 98);
+}
+.btn{
+    width: 170px;
+    height: 40px;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: 0.28rem;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: #E50914;
+    color: white;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    font-size: 20px;
+}
+.input1{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: 0.28rem;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    font-size: 17px;
+    text-align: center ;
+    font-weight: 200;
+    padding-right: 20px;
+}
+.section1{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    background-size: contain;
+}
+.section1 img{
+    height: 70vh;
+    width: 90%;
+}
+.section1 :nth-child(2) p{
+    margin-top: 30px;
+}
+.footer{
+    background-color: black;
+    height: 5vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
